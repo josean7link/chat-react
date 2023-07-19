@@ -13,9 +13,9 @@ const socket = SocketIOClient(url, {
     transports: ["websocket"],
     upgrade: false,
     rejectUnauthorized: false,
-    // path: '/api',
+    path: '/mobile',
     query: {
-        token: `Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJyb2xlIjoicGx1c01lbWJlciIsInN1YiI6MzQwLCJpYXQiOjE2ODc1ODIwNTUsImV4cCI6MTY4ODQ0NjA1NX0.r4K3uCex5S5Lmg1CrVLuKP7-QGPos9wI8E6m8tMk9eo`,
+        token: `Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJyb2xlIjoiYWRtaW4iLCJzdWIiOjIsImlhdCI6MTY4OTc4MTEwOCwiZXhwIjoxNjkwNjQ1MTA4fQ.YAvLfryXaFHTReDsvmUZUHgV9VMGLndDVUORGSueRS8`,
     },
 });
 
